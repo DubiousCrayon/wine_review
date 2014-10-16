@@ -1,4 +1,5 @@
 class Wine < ActiveRecord::Base
+	has_many :log_entries, dependent: :destroy
 	include ActiveModel::Validations
 
 	VARIETALS = ["Barbera", "Chardonnay", "Merlot"]
