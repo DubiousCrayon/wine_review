@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+# Bundle for Kaminari/Kaminary-bootstrap
+gem 'kaminari'
+gem 'kaminari-bootstrap', '~> 3.0.1'
+
+# Bundle for twitter-bootstrap
+gem 'bootstrap-sass', '~> 3.1.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
