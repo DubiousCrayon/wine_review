@@ -1,0 +1,11 @@
+<%= form_for(@wine) do |w| %>
+	<%= w.label :name %> <%= w.text_field :name, autofocus: true %> <br />
+	<%= w.label :year %> <%= w.text_field :year %><br />
+	<%= w.label :winery %> <%= w.text_field :winery %><br />
+	<%= w.label :country %> <%= w.text_field :country %><br />
+	<%= w.label :varietal %> <%= w.text_field :varietal %><br />
+	<p>
+		<%= w.submit %>
+		<%= link_to("Canel", wines_path) %>
+	</p>
+<% end %>
